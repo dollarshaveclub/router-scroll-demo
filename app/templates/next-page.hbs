@@ -1,9 +1,16 @@
 <div id="space">
   <div id="stars">
     <div id="intro">
-      Orbital velocity achieved! You are at the top of the page.
+      Orbital velocity achieved!<br>
+      Ember-router-scroll has taken you to the top of the page!<br>
+      <br>
+      <span class="small">
+        Clicking the submarine will take you to the top of the previous page.<br>
+        Using the back button will take you to your previous scroll position.
+      </span>
     </div>
-    {{#link-to 'home-page'}}<img src="../images/yellow_submarine.gif" class="flip" id="submarine">{{/link-to}}
+    {{#link-to 'application'}}<img src="./images/yellow_submarine.gif" class="flip" id="submarine">{{/link-to}}
+    <img src="./images/death-star.png" id="death-star">
     <div class="depth right">
       — Orbit -500 km
     </div>
