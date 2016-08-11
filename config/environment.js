@@ -39,7 +39,7 @@ module.exports = function(environment) {
   }
 
   if (environment === 'production') {
-    ENV.locationType = 'hash';
+    ENV.locationType = 'router-scroll';
     ENV.rootURL = '/router-scroll-demo/';
 
   }
