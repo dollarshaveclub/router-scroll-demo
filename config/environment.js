@@ -5,7 +5,7 @@ module.exports = function(environment) {
     modulePrefix: 'router-scroll-demo',
     environment: environment,
     rootURL: '/',
-    locationType: 'auto',
+    locationType: 'router-scroll',
     EmberENV: {
       FEATURES: {
         // Here you can enable experimental features on an ember canary build
